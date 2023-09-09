@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_memberinfo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:elevation="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Slot no             : "
+                         android:drawableStart="@drawable/space"
+                         android:textColor="@color/black"
+                         android:textSize="20dp"
+                         android:textStyle="italic"
+                         android:padding="10dp"
+                         android:fontFamily="serif"/>
+                     <TextView
+                         android:id="@+id/tv_slotno"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="slot no: "
+                         android:textSize="17dp"
+                         android:padding="5dp"
+                         android:textStyle="italic"
+                         android:layout_marginLeft="5dp"
+                         android:textColor="@color/black"/>
+
+                 </LinearLayout>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vhecle Type    : "
+                        android:drawableStart="@drawable/ic_baseline_directions_bike_24"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+
+                        android:textStyle="italic"
+                        android:padding="10dp"
+                        android:fontFamily="serif"/>
+                    <TextView
+                        android:id="@+id/tv_vehitype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Vhecle Type "
+                        android:textSize="17dp"
+                        android:padding="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vehicle no      : "
+                        android:drawableStart="@drawable/ic_baseline_confirmation_number_24"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="italic"
+                        android:padding="10dp"
+                        android:fontFamily="serif"/>
+                    <TextView
+                        android:id="@+id/tv_veno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vehicle no "
+                        android:textSize="17dp"
+                        android:textStyle="italic"
+                        android:padding="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>
