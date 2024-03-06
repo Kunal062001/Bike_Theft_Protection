@@ -1,60 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anti-Theft Two-Wheeler Protection System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f8f8f8;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    <h1 align="center" id="title">An Anti-Theft Bike Protection</h1>
 
-        h1 {
-            color: #333;
-        }
+<p id="description">The Anti-Theft Two-Wheeler Protection System is a security solution designed to safeguard two-wheelers from theft. The system comprises a mobile application and a microprocessor unit connected to the vehicle's ignition system through a relay. Key Features: Remote Control: Enable users to control their two-wheeler's ignition remotely via a mobile application. Ignition Control: Prevent unauthorized bike starts and halt the vehicle remotely. Mobile Application: Intuitive app interface for easy security settings management. Real-time Monitoring: Potential inclusion of real-time monitoring with alerts for suspicious activity. How It Works: The microprocessor unit integrated with the vehicle's ignition through a relay communicates securely with the mobile application. Users can send commands through the app to control the bike's ignition settings. Usage: Simple setup involves installing the microprocessor unit and downloading the mobile app. Users can conveniently manage security settings and control their two-wheeler's ignition remotely. Contributing: Contributions are welcome! Submit bug reports feature requests or pull requests to enhance the project's security features and functionality.</p>
 
-        p {
-            color: #555;
-        }
-    </style>
-</head>
-<body>
+<h2>Project Screenshots:</h2>
 
-    <h1>Anti-Theft Two-Wheeler Protection System</h1>
-    
-    <p>The Anti-Theft Two-Wheeler Protection System is a project designed to enhance the security of two-wheelers, preventing theft and unauthorized usage. The system is composed of a mobile application and a microprocessor unit connected to a relay system installed in the vehicle.</p>
+<img src="https://drive.google.com/file/d/1fAcgaaOAZyAEA52ieL3cSMGNdfxjHXdn/view?usp=sharing" alt="project-screenshot" width="400" height="300/">
 
-    <h2>Key Features</h2>
-    
-    <ul>
-        <li><strong>Remote Control:</strong> The project allows users to control the ignition system of their two-wheeler remotely using a dedicated mobile application.</li>
-        <li><strong>Ignition Control:</strong> With the installed microprocessor and relay system, users can remotely prevent the bike from starting or stop it even if it's in motion.</li>
-        <li><strong>Mobile Application:</strong> The mobile application provides an intuitive interface for users to manage and control their two-wheeler's security settings.</li>
-        <li><strong>Real-time Monitoring:</strong> The system may include features for real-time monitoring, providing users with notifications and alerts in case of any suspicious activity.</li>
-    </ul>
+<img src="https://drive.google.com/file/d/1BN4dGJUiRXkh58xRzMA9VqELypqanTGk/view?usp=sharing" alt="project-screenshot" width="400" height="300/">
 
-    <h2>How It Works</h2>
+<img src="https://drive.google.com/file/d/16qmwZ90vrw6VB3hqRJvXm6TTesWXaXN5/view?usp=sharing" alt="project-screenshot" width="400" height="300/">
 
-    <p>The microprocessor unit installed in the two-wheeler is connected to the ignition system through a relay. The mobile application communicates with the microprocessor unit over a secure connection, allowing users to send commands to control the bike's ignition.</p>
+<img src="https://drive.google.com/file/d/1s9vCdhGMhJ3mxIMfNCgDzz7SrAX2JniZ/view?usp=sharing" alt="project-screenshot" width="400" height="300/">
 
-    <h2>Usage</h2>
+<img src="https://drive.google.com/file/d/11EGHSPy_FBD5OK6342dIa_IOAG6YT-Pg/view?usp=sharing" alt="project-screenshot" width="400" height="300/">
 
-    <p>Users can easily set up the Anti-Theft Two-Wheeler Protection System by installing the microprocessor unit in their vehicle and downloading the mobile application. The application provides a user-friendly interface for managing security settings and remotely controlling the bike's ignition.</p>
+  
+  
+<h2>💻 Built with</h2>
 
-    <h2>Contributing</h2>
+Technologies used in the project:
 
-    <p>If you are interested in contributing to the project, feel free to submit bug reports, feature requests, or even pull requests. Your contributions can help enhance the security features and overall functionality of the Anti-Theft Two-Wheeler Protection System.</p>
-
-    <h2>License</h2>
-
-    <p>This project is released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>, allowing for collaboration and use by the community.</p>
-
+*   C++
+*   Firebase
+*   HTML and CSS
 </body>
 </html>
